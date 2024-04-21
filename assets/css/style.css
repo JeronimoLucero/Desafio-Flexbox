@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    height: 100vh
+}
+
+
+aside {
+    width: 300px;
+    border: solid 1px;
+    border-color: #BEC1BB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    flex-wrap: nowrap;
+   
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main img{
+    height: 25%;
+}
+
+h1{
+    margin-bottom: 0;
+    font-weight: normal;
+    color: #1B1F21;
+
+}
+
+article{
+    font-size: small;
+    padding: 1px;
+    color: #1B1F21;
+}
+
+.usercardprime {
+    border-color: #BEC1BB;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.usercard {
+    display: flex;
+    border-top:solid 1px;
+    border-color: #BEC1BB;
+    padding: 20px;
+    justify-content: space-between;
+   
+  
+}
+.nuevochat{
+    padding: 40px;
+    
+
+    
+
+}
+.usercard p{
+    color: #1B1F21;
+    
+}
+
+h5 {
+    margin: 0px;
+    font-weight: 500;
+    color: #1B1F21;
+    font-size: large;
+}
+h6{
+    margin: 0;
+    color: #1B1F21;
+    font-weight: 500;
+}
+p{
+    font-weight: light;
+    flex-wrap: nowrap;
+}
+.mainuserstatus {
+    margin: 0px;
+    font-size: small;
+    color: #828485;
+
+}
+
+i {
+    padding: 4px;
+    color: #828485;
+}
+
+.usercardprime img{
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.usercard-main {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    
+}
+
+.right {
+    display: flex;
+    align-items:flex-end;
+
+
+}
+
+.nuevochat{
+    justify-content: center;
+
+}
+.btn{
+    border: 0;
+    margin: 1px;
+    padding: 0.8em 3em;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: #A491D2;
+    color: white;
+
+}
+
+.usercard-chats p, h6{
+    margin: 0;
+    display: flex;
+    align-items:flex-end ;
+    font-size: medium;
+}
+
+.usercard-chats img{
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 40px;
+}
